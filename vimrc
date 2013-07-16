@@ -4,7 +4,7 @@ let $CONFIG = "$HOME/.vim/config"
 set nocompatible
 
 " Set leader
-let mapleader = "\\"
+let mapleader = ","
 
 source $CONFIG/misc.vim
 source $CONFIG/neobundle.vim

@@ -55,6 +55,7 @@ NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'twe4ked/vim-colorscheme-switcher'
 NeoBundle 'altercation/vim-colors-solarized'
 NeoBundle 'nanotech/jellybeans.vim'
+NeoBundle 'tomasr/molokai'
 
 filetype plugin indent on     " Required!
 "
