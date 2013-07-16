@@ -1,11 +1,14 @@
 " CtrlP search
 call unite#filters#matcher_default#use(['matcher_fuzzy'])
-" call unite#filters#sorter_default#use(['sorter_rank'])
+call unite#filters#sorter_default#use(['sorter_rank'])
+
+" call unite#custom#source('file_rec/async','sorters','sorter_rank')
 nnoremap <silent> <C-p> :Unite -start-insert -buffer-name=files -winheight=10 file_rec/async<cr>
+
 nnoremap <silent> <Leader>m :Unite -start-insert -buffer-name=recent -winheight=10 file_mru<cr>
 
 " Buffer nav
-nnoremap <Leader>b :Unite -start-insert -buffer-name=buffers -winheight=10 buffer<cr>
+nnoremap <Leader>b :Unite -buffer-name=buffers -winheight=10 buffer<cr>
 
 " Unite on the bottom
 let g:unite_split_rule = 'botright'
