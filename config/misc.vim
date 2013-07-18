@@ -17,6 +17,7 @@ set ignorecase                     " searches are case insensitive...
 set smartcase                      " ... unless they contain at least one capital letter
 set backspace=2                    " because backspace should work properly
 set noshowmode                     " because we use powerline
+set colorcolumn=80                 " Shoe 80 character width
 
 " Wrapping in quickfix windows is probably a good idea
 " autocmd FileType qf setlocal wrap linebreak
