@@ -51,11 +51,12 @@ NeoBundle 'plasticboy/vim-markdown'
 NeoBundle 'evanmiller/nginx-vim-syntax'
 NeoBundle "pangloss/vim-javascript"
 NeoBundle 'vim-ruby/vim-ruby'
+NeoBundle 'slim-template/vim-slim'
 " 
 " " Colours
 " NeoBundle 'twe4ked/vim-colorscheme-switcher'
 " NeoBundle 'altercation/vim-colors-solarized'
-NeoBundle 'nanotech/jellybeans.vim'
+" NeoBundle 'nanotech/jellybeans.vim'
 NeoBundle 'tomasr/molokai'
 
 filetype plugin indent on     " Required!
