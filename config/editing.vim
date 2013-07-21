@@ -14,21 +14,6 @@ set smarttab                                " Use shiftwidth and softtabstop to 
 set cindent                                 " Recommended seting for automatic C-style indentation
 set autoindent                              " Automatic indentation in non-C files
 
-function! SetupEnvironment()
-  let l:path = expand('%:p')
-  if l:path =~ '/Users/artega/dev/reinteractive/amaysim'
-    if &filetype == 'javascript'
-      setlocal tabstop=4 shiftwidth=4 softtabstop=4
-    " else
-    "   setlocal tabstop=4 shiftwidth=4
-    endif
-    if &filetype == 'eruby'
-      setlocal tabstop=4 shiftwidth=4 softtabstop=4
-    endif
-  endif
-endfunction
-autocmd! BufReadPost,BufNewFile * call SetupEnvironment()
-
 " Reselect visual block after indent
 vnoremap < <gv
 vnoremap > >gv

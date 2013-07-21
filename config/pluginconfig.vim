@@ -8,6 +8,7 @@ let g:NERDTreeHijackNetrw = 0               " Hijack netrw
 let g:NERDTreeShowLineNumbers = 0           " Disable line numbers
 let g:NERDTreeMinimalUI = 1                 " Disable help message
 let g:NERDTreeDirArrows = 1                 " Enable directory arrows
+let g:syntastic_check_on_open = 1           " Enable syntastic
 
 " use special powerline font
 let g:Powerline_symbols = 'fancy'
