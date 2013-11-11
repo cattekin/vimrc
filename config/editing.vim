@@ -14,6 +14,10 @@ set smarttab                                " Use shiftwidth and softtabstop to 
 set cindent                                 " Recommended seting for automatic C-style indentation
 set autoindent                              " Automatic indentation in non-C files
 
+" mouse intergration
+set mouse=a
+set clipboard=unnamed
+
 " Reselect visual block after indent
 vnoremap < <gv
 vnoremap > >gv

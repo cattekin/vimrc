@@ -32,6 +32,7 @@ NeoBundle 'bitc/vim-bad-whitespace'
 NeoBundle 'ervandew/supertab'
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'tpope/vim-endwise'
+NeoBundle 'tpope/vim-repeat'
 
 NeoBundle 'terryma/vim-multiple-cursors'
 
@@ -47,7 +48,8 @@ NeoBundle 'haml.zip'
 NeoBundle 'cakebaker/scss-syntax.vim'
 NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'yaymukund/vim-rabl'
-NeoBundle 'plasticboy/vim-markdown'
+NeoBundle 'tpope/vim-markdown'
+NeoBundle 'jtratner/vim-flavored-markdown'
 NeoBundle 'evanmiller/nginx-vim-syntax'
 NeoBundle "pangloss/vim-javascript"
 NeoBundle 'vim-ruby/vim-ruby'

@@ -1,6 +1,15 @@
 " tcomment
 let g:tcommentMapLeaderOp1 = '<Leader>c'
 
+" vim_markdown
+let g:vim_markdown_folding_disabled=1
+
+" vim_flavored_markdown
+augroup markdown
+  au!
+  au BufNewFile,BufRead *.md,*.markdown setlocal filetype=ghmarkdown
+augroup END
+
 " NERDTree
 let g:loaded_netrw = 1                      " Disable netrw
 let g:loaded_netrwPlugin = 1                " Disable netrw
