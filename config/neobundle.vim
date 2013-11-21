@@ -54,6 +54,7 @@ NeoBundle 'evanmiller/nginx-vim-syntax'
 NeoBundle "pangloss/vim-javascript"
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'slim-template/vim-slim'
+NeoBundle 'digitaltoad/vim-jade'
 
 " Syntax checking
 NeoBundle 'scrooloose/syntastic'
