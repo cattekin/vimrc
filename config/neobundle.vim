@@ -33,6 +33,7 @@ NeoBundle 'ervandew/supertab'
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'tpope/vim-endwise'
 NeoBundle 'tpope/vim-repeat'
+NeoBundle 'tpope/vim-jdaddy'
 
 NeoBundle 'terryma/vim-multiple-cursors'
 
