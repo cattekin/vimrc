@@ -7,6 +7,7 @@ call neobundle#rc(expand('~/.vim/bundle/'))
 " Let NeoBundle manage NeoBundle
 NeoBundleFetch 'Shougo/neobundle.vim'
 
+
 " I like my searches to be faster
 NeoBundle 'Shougo/vimproc', {
       \ 'build' : {
@@ -20,6 +21,9 @@ NeoBundle 'Shougo/vimproc', {
 " Now for some bundles
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'Shougo/unite.vim'
+NeoBundle 'Shougo/neomru.vim'
+
+" NeoBundle 'kien/ctrlp.vim'
 
 " Visual
 " NeoBundle 'Lokaltog/vim-powerline'
@@ -34,11 +38,14 @@ NeoBundle 'tpope/vim-surround'
 NeoBundle 'tpope/vim-endwise'
 NeoBundle 'tpope/vim-repeat'
 NeoBundle 'tpope/vim-jdaddy'
+NeoBundle 'godlygeek/tabular'
 
 NeoBundle 'terryma/vim-multiple-cursors'
 
 " Navigation
 NeoBundle 'scrooloose/nerdtree'
+
+NeoBundle 'thoughtbot/vim-rspec'
 
 " Command dispatch/background
 NeoBundle 'tpope/vim-dispatch'
@@ -54,17 +61,18 @@ NeoBundle 'jtratner/vim-flavored-markdown'
 NeoBundle 'evanmiller/nginx-vim-syntax'
 NeoBundle "pangloss/vim-javascript"
 NeoBundle 'vim-ruby/vim-ruby'
-NeoBundle 'slim-template/vim-slim'
-NeoBundle 'digitaltoad/vim-jade'
 
 " Syntax checking
 NeoBundle 'scrooloose/syntastic'
+NeoBundle 'Keithbsmiley/rspec.vim'
 " 
 " " Colours
 " NeoBundle 'twe4ked/vim-colorscheme-switcher'
 " NeoBundle 'altercation/vim-colors-solarized'
 " NeoBundle 'nanotech/jellybeans.vim'
 NeoBundle 'tomasr/molokai'
+NeoBundle 'flazz/vim-colorschemes'
+NeoBundle 'chriskempson/base16-vim'
 
 filetype plugin indent on     " Required!
 "

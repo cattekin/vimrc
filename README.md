@@ -61,5 +61,3 @@ It also remembers what test was previously run, this means I can switch over to 
 I ran previously supporting a focused test style workflow. In non-test code hitting `<Leader>r` or `<Leader>R` has the
 same effect, it just re-runs the previous test.
 
-
-
