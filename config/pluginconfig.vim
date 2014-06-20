@@ -19,9 +19,6 @@ let g:NERDTreeMinimalUI = 1                 " Disable help message
 let g:NERDTreeDirArrows = 1                 " Enable directory arrows
 let g:syntastic_check_on_open = 1           " Enable syntastic
 
-" use special powerline font
-let g:Powerline_symbols = 'fancy'
-
 " unite searching stuff
 if executable('ag')
   " Use ag in unite grep source.

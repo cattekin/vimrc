@@ -11,8 +11,6 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " I like my searches to be faster
 NeoBundle 'Shougo/vimproc', {
       \ 'build' : {
-      \     'windows' : 'make -f make_mingw32.mak',
-      \     'cygwin' : 'make -f make_cygwin.mak',
       \     'mac' : 'make -f make_mac.mak',
       \     'unix' : 'make -f make_unix.mak',
       \    },
@@ -23,19 +21,16 @@ NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/neomru.vim'
 
-" NeoBundle 'kien/ctrlp.vim'
-
 " Visual
-" NeoBundle 'Lokaltog/vim-powerline'
 NeoBundle 'bling/vim-airline'
 
 " Editing
 NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'bitc/vim-bad-whitespace'
-" NeoBundle 'Shougo/neocomplete.vim'
 NeoBundle 'ervandew/supertab'
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'tpope/vim-endwise'
+NeoBundle 'tpope/vim-unimpaired'
 NeoBundle 'tpope/vim-repeat'
 NeoBundle 'tpope/vim-jdaddy'
 NeoBundle 'godlygeek/tabular'
@@ -61,15 +56,13 @@ NeoBundle 'jtratner/vim-flavored-markdown'
 NeoBundle 'evanmiller/nginx-vim-syntax'
 NeoBundle "pangloss/vim-javascript"
 NeoBundle 'vim-ruby/vim-ruby'
+NeoBundle 'mustache/vim-mustache-handlebars'
 
 " Syntax checking
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'Keithbsmiley/rspec.vim'
-" 
+
 " " Colours
-" NeoBundle 'twe4ked/vim-colorscheme-switcher'
-" NeoBundle 'altercation/vim-colors-solarized'
-" NeoBundle 'nanotech/jellybeans.vim'
 NeoBundle 'tomasr/molokai'
 NeoBundle 'flazz/vim-colorschemes'
 NeoBundle 'chriskempson/base16-vim'

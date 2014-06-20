@@ -24,7 +24,6 @@ See [this blog post](http://mitchmckenna.com/post/11527/setting-up-vim-powerline
 
 * Uses the excellent NeoBundle to manage plugins.
 * Customised for fast Ruby and Rails development.
-* Custom compiled Source Code Pro font to save you from compiling it yourself.
 
 ### [CtrlP](https://github.com/kien/ctrlp.vim) like file navigation using [Unite](https://github.com/Shougo/unite.vim):
 

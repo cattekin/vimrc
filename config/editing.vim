@@ -17,7 +17,3 @@ set autoindent                              " Automatic indentation in non-C fil
 " mouse intergration
 set mouse=a
 set clipboard=unnamed
-
-" Reselect visual block after indent
-vnoremap < <gv
-vnoremap > >gv
