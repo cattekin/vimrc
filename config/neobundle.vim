@@ -42,21 +42,16 @@ NeoBundle 'scrooloose/nerdtree'
 
 NeoBundle 'thoughtbot/vim-rspec'
 
-" Command dispatch/background
-NeoBundle 'tpope/vim-dispatch'
-
 " Language
 NeoBundle 'tpope/vim-rails'
-NeoBundle 'haml.zip'
+NeoBundle 'tpope/vim-haml'
 NeoBundle 'cakebaker/scss-syntax.vim'
 NeoBundle 'kchmck/vim-coffee-script'
-NeoBundle 'yaymukund/vim-rabl'
 NeoBundle 'tpope/vim-markdown'
-NeoBundle 'jtratner/vim-flavored-markdown'
-NeoBundle 'evanmiller/nginx-vim-syntax'
 NeoBundle "pangloss/vim-javascript"
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'mustache/vim-mustache-handlebars'
+NeoBundle 'heartsentwined/vim-emblem'
 
 " Syntax checking
 NeoBundle 'scrooloose/syntastic'
@@ -65,7 +60,6 @@ NeoBundle 'Keithbsmiley/rspec.vim'
 " " Colours
 NeoBundle 'tomasr/molokai'
 NeoBundle 'flazz/vim-colorschemes'
-NeoBundle 'chriskempson/base16-vim'
 
 filetype plugin indent on     " Required!
 "

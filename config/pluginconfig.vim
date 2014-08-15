@@ -4,12 +4,6 @@ let g:tcommentMapLeaderOp1 = '<Leader>c'
 " vim_markdown
 let g:vim_markdown_folding_disabled=1
 
-" vim_flavored_markdown
-augroup markdown
-  au!
-  au BufNewFile,BufRead *.md,*.markdown setlocal filetype=ghmarkdown
-augroup END
-
 " NERDTree
 let g:loaded_netrw = 1                      " Disable netrw
 let g:loaded_netrwPlugin = 1                " Disable netrw
@@ -38,8 +32,7 @@ runtime macros/matchit.vim
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 
-let g:rspec_command = "Dispatch rspec {spec}"
-
+let g:ruby_path = system('echo $HOME/.rbenv/shims')
 
 
 autocmd FileType unite call s:unite_my_settings()
