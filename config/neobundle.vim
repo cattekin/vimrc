@@ -56,6 +56,7 @@ NeoBundle 'heartsentwined/vim-emblem'
 " Syntax checking
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'Keithbsmiley/rspec.vim'
+NeoBundle 'ngmy/vim-rubocop'
 
 " " Colours
 NeoBundle 'tomasr/molokai'
